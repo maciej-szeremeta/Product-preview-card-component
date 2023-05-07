@@ -16,14 +16,18 @@
   </head>
   <body class="page">
     <section class="card">
-      <div class="card__left">
+      <div
+        class="card__left"
+        role="img"
+        aria-label="Gabrielle Chanel perfume on the table with flowers"
+      >
         <img
           src="./images/image-product-desktop.jpg"
           alt="Chanel Paris Perfume"
           class="card__image"
         />
       </div>
-      <div class="card__right">
+      <main class="card__right" role="main">
         <h1 class="card__title">Perfume</h1>
         <h2 class="card__subTitle">Gabrielle Essence Eau De Parfum</h2>
         <p class="card__description">
@@ -31,14 +35,14 @@
           Polge, Perfumer-Creator for the House of CHANEL.
         </p>
         <p class="card__prices">
-          <bold class="card__price">$149.99</bold>
+          <b class="card__price">$149.99</b>
           <del class="card__lastPrice">$169.99</del>
         </p>
         <button class="button" type="button">
           <img src="./images/icon-cart.svg" alt="Cart" class="button__icon" />
           Add to Cart
         </button>
-      </div>
+      </main>
     </section>
   </body>
 </html>
